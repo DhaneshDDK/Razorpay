@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+.ctaSection{
+  background-size: 100% 100%;
+}
+
+
+@media (min-width:1070px) {
+  .corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+        }  
+}
